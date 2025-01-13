@@ -1,0 +1,45 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 210px;
+    height: 200px;
+    margin: 5px;
+    position: relative;
+    cursor: pointer;
+    perspective: 1000px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .card-back {
+    width: 100%;
+    height: 100%;
+    background-color: #756d6d;
+    border-radius: 8px;
+  }
+  
+  .flipped img {
+    visibility: visible;
+  }
+  
+  .card-back {
+    visibility: visible;
+  }
+  
+  .moves-info{
+    font-size: 20px;
+    color: goldenrod;
+    padding-left: 20px;
+  }
